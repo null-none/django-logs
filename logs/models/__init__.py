@@ -1,5 +1,6 @@
 from django.db import models
 from django.db.models import Model
+
 try:
     from django.utils.translation import ugettext_lazy as _
 except ImportError:
